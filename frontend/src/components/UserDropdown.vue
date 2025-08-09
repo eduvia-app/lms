@@ -33,7 +33,7 @@
 						>
 							{{ branding.data?.app_name }}
 						</span>
-						<span v-else> Learning </span>
+						<span v-else> {{ __('Learning') }} </span>
 					</div>
 					<div
 						v-if="userResource.data"
@@ -130,7 +130,7 @@ const userDropdownOptions = computed(() => {
 			items: [
 				{
 					icon: User,
-					label: 'My Profile',
+					label: __('My Profile'),
 					onClick: () => {
 						router.push(`/user/${userResource.data?.username}`)
 					},
@@ -140,7 +140,7 @@ const userDropdownOptions = computed(() => {
 				},
 				{
 					icon: theme.value === 'light' ? Moon : Sun,
-					label: 'Toggle Theme',
+					label: __('Toggle Theme'),
 					onClick: () => {
 						toggleTheme()
 					},
@@ -158,7 +158,7 @@ const userDropdownOptions = computed(() => {
 				},
 				{
 					icon: Settings,
-					label: 'Settings',
+					label: __('Settings'),
 					onClick: () => {
 						settingsStore.isSettingsOpen = true
 					},
@@ -168,7 +168,7 @@ const userDropdownOptions = computed(() => {
 				},
 				{
 					icon: FrappeCloudIcon,
-					label: 'Login to Frappe Cloud',
+					label: __('Login to Frappe Cloud'),
 					onClick: () => {
 						$dialog({
 							title: __('Login to Frappe Cloud?'),
@@ -196,7 +196,7 @@ const userDropdownOptions = computed(() => {
 				},
 				{
 					icon: LogOut,
-					label: 'Log out',
+					label: __('Log out'),
 					onClick: () => {
 						logout.submit().then(() => {
 							isLoggedIn = false
@@ -208,7 +208,7 @@ const userDropdownOptions = computed(() => {
 				},
 				{
 					icon: LogIn,
-					label: 'Log in',
+					label: __('Log in'),
 					onClick: () => {
 						window.location.href = '/login'
 					},

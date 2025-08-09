@@ -256,34 +256,34 @@ const readOnlyMode = window.read_only_mode
 const tabs = computed(() => {
 	let batchTabs = []
 	batchTabs.push({
-		label: __('Dashboard'),
+		label: 'Dashboard',
 		icon: LayoutDashboard,
 	})
 
 	batchTabs.push({
-		label: __('Courses'),
+		label: 'Courses',
 		icon: BookOpen,
 	})
 
 	batchTabs.push({
-		label: __('Classes'),
+		label: 'Classes',
 		icon: Laptop,
 	})
 
 	if (user.data?.is_moderator) {
 		batchTabs.push({
-			label: __('Assessments'),
+			label: 'Assessments',
 			icon: BookOpenCheck,
 		})
 	}
 
 	batchTabs.push({
-		label: __('Announcements'),
+		label: 'Announcements',
 		icon: Mail,
 	})
 
 	batchTabs.push({
-		label: __('Discussions'),
+		label: 'Discussions',
 		icon: MessageCircle,
 	})
 	return batchTabs

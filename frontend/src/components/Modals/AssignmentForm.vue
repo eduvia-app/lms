@@ -144,11 +144,11 @@ const saveAssignment = () => {
 
 const assignmentOptions = computed(() => {
 	return [
-		{ label: 'PDF', value: 'PDF' },
-		{ label: 'Image', value: 'Image' },
-		{ label: 'Document', value: 'Document' },
-		{ label: 'Text', value: 'Text' },
-		{ label: 'URL', value: 'URL' },
+		{ label: __('PDF'), value: 'PDF' },
+		{ label: __('Image'), value: 'Image' },
+		{ label: __('Document'), value: 'Document' },
+		{ label: __('Text'), value: 'Text' },
+		{ label: __('URL'), value: 'URL' },
 	]
 })
 </script>
