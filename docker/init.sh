@@ -1,4 +1,4 @@
-#!bin/bash
+﻿#!/bin/bash
 
 if [ -d "/home/frappe/frappe-bench/apps/frappe" ]; then
     echo "Bench already exists, skipping init"
@@ -36,5 +36,11 @@ bench --site lms.localhost install-app lms
 bench --site lms.localhost set-config developer_mode 1
 bench --site lms.localhost clear-cache
 bench use lms.localhost
+
+# Import French translations from workspace (persisted in repo)
+if [ -f "/workspace/lms/translations/fr.csv" ]; then
+    bench --site lms.localhost import-translations fr /workspace/lms/translations/fr.csv || true
+    bench --site lms.localhost clear-cache
+fi
 
 bench start
