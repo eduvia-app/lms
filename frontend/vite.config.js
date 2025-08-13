@@ -1,4 +1,4 @@
-import { defineConfig } from 'vite'
+import {defineConfig} from 'vite'
 import vue from '@vitejs/plugin-vue'
 import path from 'path'
 import frappeui from 'frappe-ui/vite'
@@ -25,7 +25,7 @@ export default defineConfig({
 		}),
 	],
 	server: {
-		allowedHosts: ['fs', 'per2'],
+		allowedHosts: ['lms.localhost', 'fs', 'per2'],
 	},
 	resolve: {
 		alias: {

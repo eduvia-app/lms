@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8ceac89e-548b-4898-a7d0-cd9692210a67" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/frontend/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/vite.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lms/locale/ar.po" beforeDir="false" afterPath="$PROJECT_DIR$/lms/locale/ar.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lms/locale/bs.po" beforeDir="false" afterPath="$PROJECT_DIR$/lms/locale/bs.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lms/locale/cs.po" beforeDir="false" afterPath="$PROJECT_DIR$/lms/locale/cs.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lms/locale/de.po" beforeDir="false" afterPath="$PROJECT_DIR$/lms/locale/de.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lms/locale/eo.po" beforeDir="false" afterPath="$PROJECT_DIR$/lms/locale/eo.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lms/locale/es.po" beforeDir="false" afterPath="$PROJECT_DIR$/lms/locale/es.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lms/locale/fa.po" beforeDir="false" afterPath="$PROJECT_DIR$/lms/locale/fa.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lms/locale/fr.po" beforeDir="false" afterPath="$PROJECT_DIR$/lms/locale/fr.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lms/locale/hr.po" beforeDir="false" afterPath="$PROJECT_DIR$/lms/locale/hr.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lms/locale/hu.po" beforeDir="false" afterPath="$PROJECT_DIR$/lms/locale/hu.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lms/locale/id.po" beforeDir="false" afterPath="$PROJECT_DIR$/lms/locale/id.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lms/locale/it.po" beforeDir="false" afterPath="$PROJECT_DIR$/lms/locale/it.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lms/locale/main.pot" beforeDir="false" afterPath="$PROJECT_DIR$/lms/locale/main.pot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lms/locale/nl.po" beforeDir="false" afterPath="$PROJECT_DIR$/lms/locale/nl.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lms/locale/pl.po" beforeDir="false" afterPath="$PROJECT_DIR$/lms/locale/pl.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lms/locale/pt.po" beforeDir="false" afterPath="$PROJECT_DIR$/lms/locale/pt.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lms/locale/pt_BR.po" beforeDir="false" afterPath="$PROJECT_DIR$/lms/locale/pt_BR.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lms/locale/ru.po" beforeDir="false" afterPath="$PROJECT_DIR$/lms/locale/ru.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lms/locale/sr.po" beforeDir="false" afterPath="$PROJECT_DIR$/lms/locale/sr.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lms/locale/sr_CS.po" beforeDir="false" afterPath="$PROJECT_DIR$/lms/locale/sr_CS.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lms/locale/sv.po" beforeDir="false" afterPath="$PROJECT_DIR$/lms/locale/sv.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lms/locale/th.po" beforeDir="false" afterPath="$PROJECT_DIR$/lms/locale/th.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lms/locale/tr.po" beforeDir="false" afterPath="$PROJECT_DIR$/lms/locale/tr.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lms/locale/vi.po" beforeDir="false" afterPath="$PROJECT_DIR$/lms/locale/vi.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lms/locale/zh.po" beforeDir="false" afterPath="$PROJECT_DIR$/lms/locale/zh.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;stanig2106&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/eduvia-app/lms&quot;,
+    &quot;accountId&quot;: &quot;07629746-0347-4709-8dfa-2d0f080158cf&quot;
+  }
+}</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="zkk5YL6F" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/opt/homebrew/Cellar/php/8.3.7/bin/php" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="31EuJyp79zrs7MLT76Y4wgzYgGe" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "eduvia/prod",
+    "go.import.settings.migrated": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "yarn",
+    "org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon": "",
+    "org.rust.first.attach.projects": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "application.passwordSafe",
+    "to.speed.mode.migration.done": "true",
+    "ts.external.directory.path": "/Users/stani/Documents/campus-prive/frappe-bench/apps/lms/frontend/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RubyModuleManagerSettings">
+    <option name="blackListedRootsPaths">
+      <list>
+        <option value="$PROJECT_DIR$/lms" />
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="lms" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="lms" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="lms" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="lms" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Python.FlaskServer">
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Autodetect">
+      <module name="lms" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <module name="lms" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="RustProjectSettings">
+    <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-b26f3e71634d-JavaScript-IU-251.26094.121" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8ceac89e-548b-4898-a7d0-cd9692210a67" name="Changes" comment="" />
+      <created>1755101486887</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1755101486887</updated>
+      <workItem from="1755101488483" duration="947000" />
+      <workItem from="1755102648895" duration="6458000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VgoProject">
+    <settings-migrated>true</settings-migrated>
+  </component>
+</project>
