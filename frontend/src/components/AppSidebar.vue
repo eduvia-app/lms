@@ -157,7 +157,7 @@
 			v-model="showHelpModal"
 			v-model:articles="articles"
 			appName="learning"
-			title="Frappe Learning"
+			:title="__('Frappe Learning')"
 			:logo="LMSLogo"
 			:afterSkip="(step) => capture('onboarding_step_skipped_' + step)"
 			:afterSkipAll="() => capture('onboarding_steps_skipped')"
@@ -303,7 +303,7 @@ const unreadNotifications = createResource({
 const addNotifications = () => {
 	if (user) {
 		sidebarLinks.value.push({
-			label: 'Notifications',
+			label: __('Notifications'),
 			icon: 'Bell',
 			to: 'Notifications',
 			activeFor: ['Notifications'],
@@ -315,7 +315,7 @@ const addNotifications = () => {
 const addQuizzes = () => {
 	if (isInstructor.value || isModerator.value) {
 		sidebarLinks.value.splice(4, 0, {
-			label: 'Quizzes',
+			label: __('Quizzes'),
 			icon: 'CircleHelp',
 			to: 'Quizzes',
 			activeFor: [
@@ -331,7 +331,7 @@ const addQuizzes = () => {
 const addAssignments = () => {
 	if (isInstructor.value || isModerator.value) {
 		sidebarLinks.value.splice(5, 0, {
-			label: 'Assignments',
+			label: __('Assignments'),
 			icon: 'Pencil',
 			to: 'Assignments',
 			activeFor: [
@@ -347,7 +347,7 @@ const addAssignments = () => {
 const addProgrammingExercises = () => {
 	if (isInstructor.value || isModerator.value) {
 		sidebarLinks.value.splice(3, 0, {
-			label: 'Programming Exercises',
+			label: __('Programming Exercises'),
 			icon: 'Code',
 			to: 'ProgrammingExercises',
 			activeFor: [
@@ -383,7 +383,7 @@ const addPrograms = () => {
 
 	if (canAddProgram) {
 		sidebarLinks.value.splice(index, 0, {
-			label: 'Programs',
+			label: __('Programs'),
 			icon: 'Route',
 			to: 'Programs',
 			activeFor: activeFor,

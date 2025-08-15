@@ -19,7 +19,7 @@
 						: __('No Quizzes')
 				}}
 			</div>
-			<FormControl v-model="search" type="text" placeholder="Search">
+            <FormControl v-model="search" type="text" :placeholder="__('Search')">
 				<template #prefix>
 					<FeatherIcon name="search" class="size-4 text-ink-gray-5" />
 				</template>
@@ -88,7 +88,7 @@
 				</template>
 			</ListSelectBanner>
 		</ListView>
-		<EmptyState v-else type="Quizzes" />
+		<EmptyState v-else :type="__('Quizzes').toLowerCase()" />
 		<div v-if="quizzes.hasNextPage" class="flex justify-center my-5">
 			<Button @click="quizzes.next()">
 				{{ __('Load More') }}

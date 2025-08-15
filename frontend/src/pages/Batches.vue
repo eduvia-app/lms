@@ -70,7 +70,7 @@
 				<BatchCard :batch="batch" />
 			</router-link>
 		</div>
-		<EmptyState v-else-if="!batches.list.loading" type="Batches" />
+		<EmptyState v-else-if="!batches.list.loading" :type="__('Batches').toLowerCase()" />
 
 		<div
 			v-if="!batches.list.loading && batches.hasNextPage"

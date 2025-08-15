@@ -214,7 +214,7 @@
 					<div class="mt-20" ref="discussionsContainer">
 						<Discussions
 							v-if="allowDiscussions"
-							:title="'Questions'"
+							:title="__('Questions')"
 							:doctype="'Course Lesson'"
 							:docname="lesson.data.name"
 							:key="lesson.data.name"

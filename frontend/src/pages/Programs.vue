@@ -82,7 +82,7 @@
 			</div>
 		</div>
 	</div>
-	<EmptyState v-else type="Programs" />
+	<EmptyState v-else :type="__('Programs').toLowerCase()" />
 
 	<Dialog
 		v-model="showDialog"

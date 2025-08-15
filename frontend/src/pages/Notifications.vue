@@ -144,7 +144,7 @@ onUnmounted(() => {
 const breadcrumbs = computed(() => {
 	let crumbs = [
 		{
-			label: 'Notifications',
+			label: __('Notifications'),
 			route: {
 				name: 'Notifications',
 			},
@@ -155,7 +155,7 @@ const breadcrumbs = computed(() => {
 
 usePageMeta(() => {
 	return {
-		title: 'Notifications',
+		title: __('Notifications'),
 		icon: brand.favicon,
 	}
 })

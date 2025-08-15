@@ -57,7 +57,7 @@
 			}"
 		>
 		</ListView>
-		<EmptyState v-else type="Assignments" />
+		<EmptyState v-else :type="__('Assignments').toLowerCase()" />
 		<div
 			v-if="assignments.data && assignments.hasNextPage"
 			class="flex justify-center my-5"
@@ -198,7 +198,7 @@ const assignmentTypes = computed(() => {
 
 const breadcrumbs = computed(() => [
 	{
-		label: 'Assignments',
+		label: __('Assignments'),
 		route: { name: 'Assignments' },
 	},
 ])

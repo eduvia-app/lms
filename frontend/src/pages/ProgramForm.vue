@@ -323,12 +323,12 @@ const saveProgram = () => {
 const courseColumns = computed(() => {
 	return [
 		{
-			label: 'Title',
+			label: __('Title'),
 			key: 'course_title',
 			width: 3,
 		},
 		{
-			label: 'ID',
+			label: __('ID'),
 			key: 'course',
 			width: 3,
 		},
@@ -338,19 +338,19 @@ const courseColumns = computed(() => {
 const memberColumns = computed(() => {
 	return [
 		{
-			label: 'Member',
+			label: __('Member'),
 			key: 'member',
 			width: 3,
 			align: 'left',
 		},
 		{
-			label: 'Full Name',
+			label: __('Full Name'),
 			key: 'full_name',
 			width: 3,
 			align: 'left',
 		},
 		{
-			label: 'Progress (%)',
+			label: __('Progress (%)'),
 			key: 'progress',
 			width: 3,
 			align: 'right',
@@ -361,11 +361,11 @@ const memberColumns = computed(() => {
 const breadbrumbs = computed(() => {
 	return [
 		{
-			label: 'Programs',
+			label: __('Programs'),
 			route: { name: 'Programs' },
 		},
 		{
-			label: props.programName === 'new' ? 'New Program' : props.programName,
+			label: props.programName === 'new' ? __('New Program') : props.programName,
 		},
 	]
 })

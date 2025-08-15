@@ -16,14 +16,14 @@
             <Tooltip :text="__('Active Members')">
 					<NumberChart
 						class="border rounded-md"
-						:config="{ title: 'Signups', value: chartDetails.data.users }"
+						:config="{ title: __('Signups'), value: chartDetails.data.users }"
 					/>
 				</Tooltip>
 				<Tooltip :text="__('Course Enrollments')">
 					<NumberChart
 						class="border rounded-md"
                     :config="{
-							title: 'Enrollments',
+							title: __('Enrollments'),
 							value: chartDetails.data.enrollments,
 						}"
 					/>
@@ -122,7 +122,7 @@
 						:config="{
 							data: courseCompletion.data,
 							title: __('Completions'),
-							subtitle: 'Course Completion',
+							subtitle: __('Course Completion'),
 							categoryColumn: 'label',
 							valueColumn: 'value',
 						}"
