@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Frappe LMS VERSION\n"
 "Report-Msgid-Bugs-To: jannat@frappe.io\n"
-"POT-Creation-Date: 2025-08-13 21:14+0009\n"
-"PO-Revision-Date: 2025-08-13 21:14+0009\n"
+"POT-Creation-Date: 2025-08-15 19:28-0642\n"
+"PO-Revision-Date: 2025-08-15 19:28-0642\n"
 "Last-Translator: jannat@frappe.io\n"
 "Language-Team: jannat@frappe.io\n"
 "MIME-Version: 1.0\n"
@@ -299,6 +299,10 @@ msgstr ""
 msgid "All questions should have the same marks if the limit is set."
 msgstr ""
 
+#: frontend/src/overrides/Onboarding/GettingStartedBanner.vue:32
+msgid "All steps are completed successfully"
+msgstr ""
+
 #. Label of the allow_guest_access (Check) field in DocType 'LMS Settings'
 #: lms/lms/doctype/lms_settings/lms_settings.json
 msgid "Allow Guest Access"
@@ -558,8 +562,10 @@ msgstr ""
 msgid "Assignment will appear at the bottom of the lesson."
 msgstr ""
 
+#: frontend/src/components/AppSidebar.vue:334
 #: frontend/src/components/AppSidebar.vue:601
 #: frontend/src/components/Settings/Badges.vue:163
+#: frontend/src/pages/Assignments.vue:60 frontend/src/pages/Assignments.vue:201
 #: frontend/src/pages/Assignments.vue:208 lms/www/lms.py:273
 msgid "Assignments"
 msgstr ""
@@ -803,8 +809,8 @@ msgstr ""
 
 #. Label of the batches (Check) field in DocType 'LMS Settings'
 #: frontend/src/pages/Batch.vue:320 frontend/src/pages/BatchDetail.vue:123
-#: frontend/src/pages/Batches.vue:299 frontend/src/pages/Batches.vue:306
-#: frontend/src/utils/index.js:418
+#: frontend/src/pages/Batches.vue:73 frontend/src/pages/Batches.vue:299
+#: frontend/src/pages/Batches.vue:306 frontend/src/utils/index.js:418
 #: lms/lms/doctype/lms_settings/lms_settings.json lms/www/lms.py:122
 msgid "Batches"
 msgstr ""
@@ -1431,6 +1437,10 @@ msgstr ""
 msgid "Content"
 msgstr ""
 
+#: frontend/src/overrides/Onboarding/GettingStartedBanner.vue:37
+msgid "Continue"
+msgstr ""
+
 #: frontend/src/components/CourseCardOverlay.vue:33
 msgid "Continue Learning"
 msgstr ""
@@ -1549,6 +1559,10 @@ msgstr ""
 #. Label of a shortcut in the LMS Workspace
 #: lms/lms/workspace/lms/lms.json
 msgid "Course Completed"
+msgstr ""
+
+#: frontend/src/pages/Statistics.vue:125
+msgid "Course Completion"
 msgstr ""
 
 #: frontend/src/pages/Statistics.vue:31
@@ -2276,7 +2290,8 @@ msgstr ""
 #. Label of a shortcut in the LMS Workspace
 #: frontend/src/components/BatchCourses.vue:129
 #: frontend/src/components/Modals/CourseProgressSummary.vue:97
-#: frontend/src/pages/Statistics.vue:76 frontend/src/pages/Statistics.vue:85
+#: frontend/src/pages/Statistics.vue:26 frontend/src/pages/Statistics.vue:76
+#: frontend/src/pages/Statistics.vue:85
 #: lms/lms/doctype/lms_course/lms_course.json lms/lms/workspace/lms/lms.json
 msgid "Enrollments"
 msgstr ""
@@ -2611,6 +2626,10 @@ msgstr ""
 msgid "Formal Wear"
 msgstr ""
 
+#: frontend/src/components/AppSidebar.vue:160
+msgid "Frappe Learning"
+msgstr ""
+
 #: lms/lms/widgets/CourseCard.html:114
 msgid "Free"
 msgstr ""
@@ -2653,6 +2672,7 @@ msgstr ""
 #. Label of the full_name (Data) field in DocType 'Invite Request'
 #. Label of the full_name (Data) field in DocType 'LMS Program Member'
 #: frontend/src/components/BatchStudents.vue:234
+#: frontend/src/pages/ProgramForm.vue:347
 #: lms/lms/doctype/course_evaluator/course_evaluator.json
 #: lms/lms/doctype/invite_request/invite_request.json
 #: lms/lms/doctype/lms_program_member/lms_program_member.json
@@ -2714,6 +2734,10 @@ msgstr ""
 
 #: lms/templates/onboarding_header.html:8
 msgid "Get Started"
+msgstr ""
+
+#: frontend/src/overrides/Onboarding/GettingStartedBanner.vue:10
+msgid "Getting started"
 msgstr ""
 
 #. Label of the github (Data) field in DocType 'User'
@@ -2855,7 +2879,7 @@ msgstr ""
 msgid "I am unavailable"
 msgstr ""
 
-#: frontend/src/pages/QuizForm.vue:338
+#: frontend/src/pages/ProgramForm.vue:331 frontend/src/pages/QuizForm.vue:338
 msgid "ID"
 msgstr ""
 
@@ -3171,7 +3195,7 @@ msgstr ""
 msgid "Job Details"
 msgstr ""
 
-#: lms/www/lms.py:176
+#: frontend/src/pages/Jobs.vue:84 lms/www/lms.py:176
 msgid "Job Openings"
 msgstr ""
 
@@ -3853,6 +3877,7 @@ msgstr ""
 #: frontend/src/components/Settings/ZoomSettings.vue:187
 #: frontend/src/pages/AssignmentSubmissionList.vue:14
 #: frontend/src/pages/AssignmentSubmissionList.vue:169
+#: frontend/src/pages/ProgramForm.vue:341
 #: frontend/src/pages/ProgrammingExercises/ProgrammingExerciseSubmissions.vue:268
 #: frontend/src/pages/QuizSubmission.vue:31
 #: frontend/src/pages/QuizSubmissionList.vue:91
@@ -4188,7 +4213,7 @@ msgstr ""
 msgid "New Job Applicant"
 msgstr ""
 
-#: frontend/src/pages/Programs.vue:90
+#: frontend/src/pages/ProgramForm.vue:368 frontend/src/pages/Programs.vue:90
 msgid "New Program"
 msgstr ""
 
@@ -4386,6 +4411,9 @@ msgid "Nothing to see here."
 msgstr ""
 
 #. Label of the notifications (Check) field in DocType 'LMS Settings'
+#: frontend/src/components/AppSidebar.vue:306
+#: frontend/src/pages/Notifications.vue:147
+#: frontend/src/pages/Notifications.vue:158
 #: lms/lms/doctype/lms_settings/lms_settings.json
 msgid "Notifications"
 msgstr ""
@@ -5083,6 +5111,7 @@ msgid "Programming Exercise updated successfully"
 msgstr ""
 
 #. Label of the programming_exercises (Check) field in DocType 'LMS Settings'
+#: frontend/src/components/AppSidebar.vue:350
 #: frontend/src/pages/ProgrammingExercises/ProgrammingExerciseSubmissions.vue:308
 #: frontend/src/pages/ProgrammingExercises/ProgrammingExercises.vue:158
 #: frontend/src/pages/ProgrammingExercises/ProgrammingExercises.vue:166
@@ -5090,6 +5119,8 @@ msgstr ""
 msgid "Programming Exercises"
 msgstr ""
 
+#: frontend/src/components/AppSidebar.vue:386
+#: frontend/src/pages/ProgramForm.vue:364 frontend/src/pages/Programs.vue:85
 #: frontend/src/pages/Programs.vue:206 frontend/src/pages/Programs.vue:212
 #: lms/www/lms.py:295
 msgid "Programs"
@@ -5105,6 +5136,7 @@ msgstr ""
 msgid "Progress"
 msgstr ""
 
+#: frontend/src/pages/ProgramForm.vue:353
 #: lms/lms/report/course_progress_summary/course_progress_summary.py:77
 msgid "Progress (%)"
 msgstr ""
@@ -5223,7 +5255,8 @@ msgid "Question {0} of {1}"
 msgstr ""
 
 #. Label of the questions (Table) field in DocType 'LMS Quiz'
-#: frontend/src/pages/QuizForm.vue:131 lms/lms/doctype/lms_quiz/lms_quiz.json
+#: frontend/src/pages/Lesson.vue:217 frontend/src/pages/QuizForm.vue:131
+#: lms/lms/doctype/lms_quiz/lms_quiz.json
 msgid "Questions"
 msgstr ""
 
@@ -5287,9 +5320,11 @@ msgstr ""
 msgid "Quiz will appear at the bottom of the lesson."
 msgstr ""
 
+#: frontend/src/components/AppSidebar.vue:318
 #: frontend/src/components/AppSidebar.vue:600
-#: frontend/src/pages/QuizForm.vue:396 frontend/src/pages/Quizzes.vue:275
-#: frontend/src/pages/Quizzes.vue:285 lms/www/lms.py:251
+#: frontend/src/pages/QuizForm.vue:396 frontend/src/pages/Quizzes.vue:91
+#: frontend/src/pages/Quizzes.vue:275 frontend/src/pages/Quizzes.vue:285
+#: lms/www/lms.py:251
 msgid "Quizzes"
 msgstr ""
 
@@ -5410,6 +5445,14 @@ msgstr ""
 #. Label of the required_role (Select) field in DocType 'Cohort Web Page'
 #: lms/lms/doctype/cohort_web_page/cohort_web_page.json
 msgid "Required Role"
+msgstr ""
+
+#: frontend/src/overrides/Onboarding/OnboardingSteps.vue:65
+msgid "Reset"
+msgstr ""
+
+#: frontend/src/overrides/Onboarding/OnboardingSteps.vue:22
+msgid "Reset all"
 msgstr ""
 
 #. Option for the 'Membership' (Select) field in DocType 'LMS Batch Old'
@@ -5595,7 +5638,7 @@ msgstr ""
 #: frontend/src/components/Controls/Autocomplete.vue:56
 #: frontend/src/components/Settings/Evaluators.vue:25
 #: frontend/src/components/Settings/Members.vue:25
-#: frontend/src/pages/Jobs.vue:41
+#: frontend/src/pages/Jobs.vue:41 frontend/src/pages/Quizzes.vue:22
 msgid "Search"
 msgstr ""
 
@@ -5794,8 +5837,8 @@ msgid "Signup Settings"
 msgstr ""
 
 #. Label of a chart in the LMS Workspace
-#: frontend/src/pages/Statistics.vue:56 frontend/src/pages/Statistics.vue:65
-#: lms/lms/workspace/lms/lms.json
+#: frontend/src/pages/Statistics.vue:19 frontend/src/pages/Statistics.vue:56
+#: frontend/src/pages/Statistics.vue:65 lms/lms/workspace/lms/lms.json
 msgid "Signups"
 msgstr ""
 
@@ -5824,8 +5867,13 @@ msgstr ""
 msgid "Skills"
 msgstr ""
 
+#: frontend/src/overrides/Onboarding/OnboardingSteps.vue:59
 #: frontend/src/pages/PersonaForm.vue:51 lms/templates/onboarding_header.html:6
 msgid "Skip"
+msgstr ""
+
+#: frontend/src/overrides/Onboarding/OnboardingSteps.vue:28
+msgid "Skip all"
 msgstr ""
 
 #: lms/lms/doctype/course_evaluator/course_evaluator.py:63
@@ -5939,6 +5987,14 @@ msgstr ""
 #. Label of the start_url (Small Text) field in DocType 'LMS Live Class'
 #: lms/lms/doctype/lms_live_class/lms_live_class.json
 msgid "Start URL"
+msgstr ""
+
+#: frontend/src/components/Discussions.vue:105
+msgid "Start a discussion"
+msgstr ""
+
+#: frontend/src/overrides/Onboarding/GettingStartedBanner.vue:37
+msgid "Start now"
 msgstr ""
 
 #: frontend/src/components/Quiz.vue:81
@@ -6515,7 +6571,7 @@ msgstr ""
 #: frontend/src/components/Settings/BadgeForm.vue:19
 #: frontend/src/pages/Assignments.vue:162 frontend/src/pages/BatchForm.vue:27
 #: frontend/src/pages/CourseForm.vue:30 frontend/src/pages/JobForm.vue:20
-#: frontend/src/pages/ProgramForm.vue:11
+#: frontend/src/pages/ProgramForm.vue:11 frontend/src/pages/ProgramForm.vue:326
 #: frontend/src/pages/ProgrammingExercises/ProgrammingExerciseForm.vue:17
 #: frontend/src/pages/Programs.vue:101 frontend/src/pages/QuizForm.vue:56
 #: frontend/src/pages/Quizzes.vue:115 frontend/src/pages/Quizzes.vue:229
@@ -6910,6 +6966,10 @@ msgstr ""
 msgid "Wednesday"
 msgstr ""
 
+#: frontend/src/overrides/Onboarding/OnboardingSteps.vue:5
+msgid "Welcome to {0}"
+msgstr ""
+
 #: lms/lms/doctype/invite_request/invite_request.py:40
 #: lms/templates/emails/lms_invite_request_approved.html:4
 msgid "Welcome to {0}!"
@@ -6983,6 +7043,10 @@ msgstr ""
 
 #: lms/lms/doctype/lms_certificate_request/lms_certificate_request.py:95
 msgid "You already have an evaluation on {0} at {1} for the course {2}."
+msgstr ""
+
+#: frontend/src/overrides/Onboarding/GettingStartedBanner.vue:22
+msgid "You are all set"
 msgstr ""
 
 #: frontend/src/pages/CourseCertification.vue:14
@@ -7267,10 +7331,6 @@ msgstr ""
 msgid "has been"
 msgstr ""
 
-#: frontend/src/components/EmptyState.vue:27
-msgid "hello my friend"
-msgstr ""
-
 #: frontend/src/components/StudentHeatmap.vue:8
 msgid "in the last"
 msgstr ""
@@ -7405,6 +7465,19 @@ msgstr ""
 
 #: lms/lms/utils.py:642 lms/lms/utils.py:648
 msgid "{0} mentioned you in a comment in {1}"
+msgstr ""
+
+#: frontend/src/overrides/Onboarding/OnboardingSteps.vue:14
+#, python-format
+msgid "{0}% completed"
+msgstr ""
+
+#: frontend/src/overrides/Onboarding/GettingStartedBanner.vue:13
+msgid "{0}/{1} steps"
+msgstr ""
+
+#: frontend/src/overrides/Onboarding/OnboardingSteps.vue:8
+msgid "{0}/{1} steps completed"
 msgstr ""
 
 #: lms/lms/utils.py:462
