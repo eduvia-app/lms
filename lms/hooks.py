@@ -25,6 +25,8 @@ web_include_js = [
     "/assets/lms/js/eduvia_sso_login.js",
 ]
 
+before_request = ["lms.integrations.eduvia_sso.try_sso_login"]
+
 # include custom scss in every website theme (without file extension ".scss")
 # website_theme_scss = "lms/public/scss/website"
 
